@@ -1,4 +1,4 @@
-package org.creating.json.core;
+package org.cland.json.core;
 
 import java.util.HashMap;
 import java.util.Map;

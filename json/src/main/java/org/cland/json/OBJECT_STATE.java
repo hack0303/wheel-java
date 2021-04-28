@@ -1,4 +1,4 @@
-package org.creating.json;
+package org.cland.json;
 
 public enum OBJECT_STATE {
 	S0(001, 'a');

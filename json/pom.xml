@@ -6,7 +6,7 @@
     <artifactId>wheel-java</artifactId>
     <version>0.0.1</version>
   </parent>
-  <groupId>org.creating.wheel</groupId>
+  <groupId>org.cland</groupId>
   <artifactId>json</artifactId>
   <name>json</name>
   <url>http://maven.apache.org</url>
