@@ -19,7 +19,7 @@
   </properties>
 
   <modules>
-  	<module>json</module>
+  	  <module>json</module>
       <module>cache</module>
   </modules>
   <dependencyManagement>
