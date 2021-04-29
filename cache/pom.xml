@@ -57,7 +57,6 @@
         <dependency> <!-- use a specific Groovy version rather than the one specified by spock-core -->
         <groupId>org.codehaus.groovy</groupId>
         <artifactId>groovy</artifactId>
-        <version>${groovy.version}</version>
         </dependency>
     </dependencies>
 

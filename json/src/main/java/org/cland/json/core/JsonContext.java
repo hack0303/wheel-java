@@ -8,4 +8,8 @@ public class JsonContext implements ContextListenable,HandlerRegistry{
 		
 	}
 
+	@Override
+	public void addListener() {
+
+	}
 }
