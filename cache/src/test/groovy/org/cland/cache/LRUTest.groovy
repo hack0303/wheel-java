@@ -10,7 +10,7 @@ class LRUTest extends Specification {
         def lru=new LRU(max)
         when:
         for(x in (1..100)){
-            lru.put(1,'${x}v')
+            lru.put(x,"${x}x")
         }
         then:
         lru.get(91) == 91+'x'

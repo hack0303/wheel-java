@@ -11,10 +11,10 @@ public class LRU<K,V> implements ICache<K,V>{
 
     public LRU(int max){
         this.max=max;
-        store=new LinkedHashMap<K,V>(16,0.75f,true){
+        this.store=new LinkedHashMap<K,V>(16,0.75f,true){
             @Override
             protected boolean removeEldestEntry(Map.Entry<K, V> eldest) {
-                return this.size()>=max;
+                return this.size()>max;
             }
         };
     }
@@ -36,6 +36,6 @@ public class LRU<K,V> implements ICache<K,V>{
 
     @Override
     public int size() {
-        return 0;
+        return store.size();
     }
 }
