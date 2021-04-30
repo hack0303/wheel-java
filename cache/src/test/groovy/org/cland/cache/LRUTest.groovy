@@ -18,7 +18,7 @@ class LRUTest extends Specification {
     }
 
     @Ignore
-    def "test remove"() {
+    def "test remove"() {            vc
         given:
         def max=10
         def lru=new LRU(max)
