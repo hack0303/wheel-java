@@ -21,6 +21,7 @@
   <modules>
   	  <module>json</module>
       <module>cache</module>
+      <module>compression-utils</module>
   </modules>
   <dependencyManagement>
   <dependencies>
